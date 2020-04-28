@@ -114,10 +114,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 911, y: 271}
-  m_MaxSize: {x: 22006, y: 10021}
+  m_MinSize: {x: 908, y: 271}
+  m_MaxSize: {x: 22003, y: 10021}
   vertical: 0
-  controlID: 28480
+  controlID: 7026
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   - {fileID: 11}
   - {fileID: 10}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 19
-    width: 748
+    width: 743
     height: 710
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 935, y: 861.25}
+  m_TargetSize: {x: 928.75, y: 861.25}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -351,9 +351,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -29.245209, y: 12.676239, z: 24.845253}
+    m_Target: {x: -7.0012283, y: 7.5672455, z: -28.922413}
     speed: 2
-    m_Value: {x: -29.245209, y: 12.676239, z: 24.845253}
+    m_Value: {x: -7.0012283, y: 7.5672455, z: -28.922413}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -399,13 +399,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.73450863, y: -0.01768914, z: 0.019185362, w: 0.678114}
+    m_Target: {x: 0.7039124, y: -0.0031959417, z: 0.0031680015, w: 0.71027577}
     speed: 2
-    m_Value: {x: 0.7293646, y: -0.018857714, z: 0.020146007, w: 0.6835685}
+    m_Value: {x: -0.7039124, y: 0.0031959417, z: -0.0031680015, w: -0.71027577}
   m_Size:
-    m_Target: 19.17013
+    m_Target: 29.555117
     speed: 2
-    m_Value: 20.073435
+    m_Value: 29.555117
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 60460000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2aabffff44fbffff484500006045000084450000f4450000
+      m_ExpandedIDs: 44fbffff60450000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -524,20 +524,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/Card Art/Ghost Tiger
+    - Assets/Materials/Card Art/Giant Laser Cannon
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials/Card Art/Ghost Tiger
+  - Assets/Materials/Card Art/Giant Laser Cannon
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jkell\HeroStrikeHDRP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0e500000
-    m_LastClickedID: 20494
-    m_ExpandedIDs: 00000000ca470000cc470000ce470000d0470000e6470000224800004c4800004e4800005048000066480000f64f000000ca9a3b
+    m_SelectedIDs: a6480000
+    m_LastClickedID: 18598
+    m_ExpandedIDs: 000000001448000016480000184800001a4800001c4800001e4800002048000022480000244800002648000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -565,7 +565,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ca470000cc470000ce470000d0470000e6470000224800004c4800004e48000050480000f64f000000ca9a3b
+    m_ExpandedIDs: 000000001448000016480000184800001a4800001c4800001e48000022480000244800002648000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -592,7 +592,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 000000000a460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
