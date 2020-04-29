@@ -23,10 +23,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 908, y: 271}
-  m_MaxSize: {x: 22003, y: 10021}
+  m_MinSize: {x: 911, y: 271}
+  m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 6785
+  controlID: 12507
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -181,9 +181,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.0012283, y: 7.5672455, z: -28.922413}
+    m_Target: {x: 10.478292, y: 8.943515, z: -8.864534}
     speed: 2
-    m_Value: {x: -7.0012283, y: 7.5672455, z: -28.922413}
+    m_Value: {x: 10.478292, y: 8.943515, z: -8.864534}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -229,13 +229,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.7039124, y: -0.0031959417, z: 0.0031680015, w: 0.71027577}
+    m_Target: {x: 0.7164092, y: 0.055223, z: -0.057074092, w: 0.6931488}
     speed: 2
-    m_Value: {x: 0.70391077, y: -0.0031959345, z: 0.0031679943, w: 0.71027416}
+    m_Value: {x: 0.71640766, y: 0.05522288, z: -0.05707397, w: 0.6931473}
   m_Size:
-    m_Target: 29.555117
+    m_Target: 8.094935
     speed: 2
-    m_Value: 29.555117
+    m_Value: 8.094935
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -279,8 +279,8 @@ MonoBehaviour:
     y: 0
     width: 204
     height: 731
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -317,7 +317,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 44fbffff60450000
+      m_ExpandedIDs: 44fbffff524500006a45000042460000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -406,20 +406,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/Card Art/Giant Laser Cannon
+    - Assets/Materials/Base Card Art/Text boxes/Fire
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials/Card Art/Giant Laser Cannon
+  - Assets/Materials/Base Card Art/Text boxes/Fire
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jkell\HeroStrikeHDRP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6480000
-    m_LastClickedID: 18598
-    m_ExpandedIDs: 000000001448000016480000184800001a4800001c4800001e4800002048000022480000244800002648000000ca9a3b
+    m_SelectedIDs: da480000
+    m_LastClickedID: 18650
+    m_ExpandedIDs: 000000004448000046480000484800004a4800004c4800004e4800005048000052480000544800005648000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -435,7 +435,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
+      m_ClientGUIView: {fileID: 3}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -447,7 +447,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001448000016480000184800001a4800001c4800001e48000022480000244800002648000000ca9a3b
+    m_ExpandedIDs: 000000004448000046480000484800004a4800004c4800004e4800005048000052480000544800005648000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -472,10 +472,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 60460000
-    m_LastClickedInstanceID: 18016
+    m_SelectedInstanceIDs: c8450000
+    m_LastClickedInstanceID: 17864
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 000000000a460000
+    m_ExpandedInstanceIDs: 000000000a460000fc4e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,7 +491,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 7}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -522,8 +522,8 @@ MonoBehaviour:
     y: 0
     width: 279
     height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -566,7 +566,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 18016
+  m_LastInspectedObjectInstanceID: 17864
   m_LastVerticalScrollValue: 0
 --- !u!114 &11
 MonoBehaviour:
