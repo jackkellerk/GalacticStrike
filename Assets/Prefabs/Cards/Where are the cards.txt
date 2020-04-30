@@ -1,0 +1,1 @@
+Check under the Resources folder. Only make a prefab for the common variant of the card. The infrastructure will do the rest!
