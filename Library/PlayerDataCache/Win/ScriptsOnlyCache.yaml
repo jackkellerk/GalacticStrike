@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - moveCard
+    - readDeckCollection
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -69,6 +72,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -105,7 +109,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -117,127 +125,137 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 109
       Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11476}
+      Script: {instanceID: 11496}
     - Class: 114
-      Script: {instanceID: 11574}
+      Script: {instanceID: 11594}
     - Class: 114
-      Script: {instanceID: 11642}
+      Script: {instanceID: 11662}
     - Class: 114
-      Script: {instanceID: 11788}
+      Script: {instanceID: 11808}
     - Class: 114
-      Script: {instanceID: 11826}
+      Script: {instanceID: 11846}
     - Class: 114
-      Script: {instanceID: 11954}
+      Script: {instanceID: 11974}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 11978}
     - Class: 114
-      Script: {instanceID: 12058}
+      Script: {instanceID: 12078}
     - Class: 114
-      Script: {instanceID: 12132}
+      Script: {instanceID: 12152}
     - Class: 114
-      Script: {instanceID: 12184}
+      Script: {instanceID: 12204}
     - Class: 114
-      Script: {instanceID: 12332}
+      Script: {instanceID: 12352}
     - Class: 114
-      Script: {instanceID: 12394}
+      Script: {instanceID: 12414}
     - Class: 114
-      Script: {instanceID: 12404}
+      Script: {instanceID: 12424}
     - Class: 114
-      Script: {instanceID: 12462}
+      Script: {instanceID: 12482}
     - Class: 114
-      Script: {instanceID: 12724}
+      Script: {instanceID: 12744}
     - Class: 114
-      Script: {instanceID: 12876}
+      Script: {instanceID: 12896}
     - Class: 114
-      Script: {instanceID: 12968}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 12970}
+      Script: {instanceID: 12990}
     - Class: 114
-      Script: {instanceID: 13156}
+      Script: {instanceID: 13176}
     - Class: 114
-      Script: {instanceID: 13234}
+      Script: {instanceID: 13254}
     - Class: 114
-      Script: {instanceID: 13306}
+      Script: {instanceID: 13326}
     - Class: 114
-      Script: {instanceID: 13544}
+      Script: {instanceID: 13566}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 13608}
     - Class: 114
-      Script: {instanceID: 13650}
+      Script: {instanceID: 13672}
     - Class: 114
-      Script: {instanceID: 13718}
+      Script: {instanceID: 13740}
     - Class: 114
-      Script: {instanceID: 13728}
+      Script: {instanceID: 13750}
     - Class: 114
-      Script: {instanceID: 13876}
+      Script: {instanceID: 13898}
     - Class: 114
-      Script: {instanceID: 14240}
+      Script: {instanceID: 13902}
     - Class: 114
-      Script: {instanceID: 14280}
+      Script: {instanceID: 14264}
     - Class: 114
-      Script: {instanceID: 14310}
+      Script: {instanceID: 14304}
     - Class: 114
-      Script: {instanceID: 14508}
+      Script: {instanceID: 14330}
     - Class: 114
-      Script: {instanceID: 14724}
+      Script: {instanceID: 14528}
     - Class: 114
-      Script: {instanceID: 14822}
+      Script: {instanceID: 14744}
     - Class: 114
-      Script: {instanceID: 14826}
+      Script: {instanceID: 14842}
     - Class: 114
-      Script: {instanceID: 14844}
+      Script: {instanceID: 14846}
     - Class: 114
-      Script: {instanceID: 14856}
+      Script: {instanceID: 14864}
     - Class: 114
-      Script: {instanceID: 15034}
+      Script: {instanceID: 14876}
     - Class: 114
-      Script: {instanceID: 15082}
+      Script: {instanceID: 15054}
     - Class: 114
-      Script: {instanceID: 15090}
+      Script: {instanceID: 15102}
     - Class: 114
-      Script: {instanceID: 15522}
+      Script: {instanceID: 15110}
     - Class: 114
-      Script: {instanceID: 15540}
+      Script: {instanceID: 15542}
     - Class: 114
-      Script: {instanceID: 15612}
+      Script: {instanceID: 15560}
     - Class: 114
-      Script: {instanceID: 15972}
+      Script: {instanceID: 15632}
     - Class: 114
-      Script: {instanceID: 16026}
+      Script: {instanceID: 15682}
     - Class: 114
-      Script: {instanceID: 16184}
+      Script: {instanceID: 15994}
     - Class: 114
-      Script: {instanceID: 16252}
+      Script: {instanceID: 16048}
     - Class: 114
-      Script: {instanceID: 16276}
+      Script: {instanceID: 16206}
     - Class: 114
-      Script: {instanceID: 16292}
+      Script: {instanceID: 16274}
     - Class: 114
-      Script: {instanceID: 16312}
+      Script: {instanceID: 16298}
     - Class: 114
-      Script: {instanceID: 16500}
+      Script: {instanceID: 16314}
     - Class: 114
-      Script: {instanceID: 16562}
+      Script: {instanceID: 16334}
     - Class: 114
-      Script: {instanceID: 16564}
+      Script: {instanceID: 16514}
     - Class: 114
-      Script: {instanceID: 16570}
+      Script: {instanceID: 16522}
     - Class: 114
-      Script: {instanceID: 16604}
+      Script: {instanceID: 16584}
     - Class: 114
-      Script: {instanceID: 16610}
+      Script: {instanceID: 16586}
     - Class: 114
-      Script: {instanceID: 16640}
+      Script: {instanceID: 16592}
     - Class: 114
-      Script: {instanceID: 16644}
+      Script: {instanceID: 16626}
     - Class: 114
-      Script: {instanceID: 16820}
+      Script: {instanceID: 16632}
     - Class: 114
-      Script: {instanceID: 16826}
+      Script: {instanceID: 16662}
+    - Class: 114
+      Script: {instanceID: 16666}
+    - Class: 114
+      Script: {instanceID: 16842}
+    - Class: 114
+      Script: {instanceID: 16848}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -254,6 +272,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: acdbda64bb51629736e12066c6d9b0c1
+    assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
+    namespaceName: UnityEngine.Rendering.HighDefinition
+    className: HDRenderPipelineAsset
   - hash:
       serializedVersion: 2
       Hash: a1f19ad47d3094e235f21b74dfc423a8
@@ -880,6 +904,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerToggleHistory
   - hash:
       serializedVersion: 2
+      Hash: 4335e48ee73b3a17c458e0e217ac7117
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: moveCard
+  - hash:
+      serializedVersion: 2
       Hash: ac628a1f4f225c3fbac27618790a68ad
     assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
     namespaceName: UnityEngine.Rendering.HighDefinition
@@ -962,12 +992,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
-  - hash:
-      serializedVersion: 2
-      Hash: acdbda64bb51629736e12066c6d9b0c1
-    assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
-    namespaceName: UnityEngine.Rendering.HighDefinition
-    className: HDRenderPipelineAsset
   - hash:
       serializedVersion: 2
       Hash: 8d35f16c5022311c6f4d9432be73bfcf
@@ -1310,6 +1334,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.HighDefinition.Runtime.dll
     namespaceName: UnityEngine.Rendering.HighDefinition
     className: RecursiveRendering
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: readDeckCollection
   - hash:
       serializedVersion: 2
       Hash: 4d16cfbaa8e821a2b370e80844a0e9bc
