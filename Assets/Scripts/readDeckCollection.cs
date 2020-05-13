@@ -10,7 +10,7 @@ public class readDeckCollection : MonoBehaviour
     string cardsInDeck = ""; // TODO
 
     // These are the prefabs for the cards. If adding a card, make a new variable here copying the format.
-    // Then add the prefab of the card to the directory you assigned it to.
+    // Then assign this variable in the Awake() function below.
     public static GameObject starburstCommon;
     public static GameObject starburstUltra;
     public static GameObject starburstSecret;
@@ -27,6 +27,7 @@ public class readDeckCollection : MonoBehaviour
     void Awake()
     {
         // If you're making a new card, add a line here to the name of the prefab in the 'Assets/Resources/Prefab' directory.
+        // Then in the determineCard() function, create a new if block.
         starburstCommon = Resources.Load("Prefabs/Starburst Common") as GameObject;
         ghostTigerCommon = Resources.Load("Prefabs/Ghost Tiger Common") as GameObject;
         sleepingBeastCommon = Resources.Load("Prefabs/Sleeping Beast Common") as GameObject;
@@ -38,7 +39,7 @@ public class readDeckCollection : MonoBehaviour
         sleepingBeastSecret = Resources.Load("Prefabs/Sleeping Beast Secret Rare") as GameObject;
         // mindUploadCommon = TODO;
         // mindUploadUltra = TODO;
-        mindUploadSecret = Resources.Load("Prefabs/Mind Upload Secret Rare") as GameObject;
+        mindUploadSecret = Resources.Load("Prefabs/Mind Upload Secret Rare") as GameObject; // TODO
     }
 
     // If you're making a new card, copy one of the if statements below, and customize it. That's it, you're done!
